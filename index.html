@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        img{
+            max-width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Best html docs</h1>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, nostrum quaerat? Ad nihil odit nemo reiciendis impedit autem non fugiat quod nam! Molestiae saepe reiciendis rem inventore voluptatum ratione at! 
+    </p>
+    <a href="https://thapatechnical.shop/courses/best-html-course/64f466752e7db1611c90247a/64f466752e7db1611c90247b" 
+    target="_blank" //(inThereTargetAttributeIsWhereYouWantToOpenYourLinkExistingWindowOrNewWindow) 
+    title="click now you subs" //provide-additional-information-when-hovering
+     > SUBSCRIBE TECHINAL CHANNEL </a>
+    <hr/>
+    <a href="#p2">go p2</a>
+     <!-- id = assign a unique identifier to the anchor for linking within the page.
+        #Anchor tag urls relative and absolute, 
+        *relative urls are urls that are relative to the current pages url.
+        <a href="./htmlbythapa.zip" download(attribute)>download file link</a> 
+        *absoulte Urls are complete urls, include the protocol(https) and domain
+        <a href="c:\root\htmlbythapa.zip" download(attribute)>download file link</a> 
+        -->
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi?</p>
+    <hr/>
+     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi?</p>
+    <hr/>
+     <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt magni laudantium vel dolorum eos aliquam qui sapiente placeat aperiam praesentium maxime voluptatem ea fuga voluptates, repudiandae molestias nam dolores esse repellendus rem quia dignissimos. Facilis maiores adipisci ipsam quae quis commodi, amet quod ut totam vero at, eligendi quasi?</p>
+     <a href="mailto:thapa@technical.com">Send email to noWhere</a>
+     <p>href attribute with the Tel: <a href="tel:+12345678867">Call Us!</a></p>
+     
+     
+     <a href="">
+        <img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/62653/261500/1608278987780_A7-1__53517.1687170836.jpg?c=2&imbypass=on" 
+        alt="picture from moonlight"
+        height="auto"
+        width="100%"
+        title="html course banner"
+        loading="lazy">
+     </a>
+     <hr/>
+     <!-- second way to image linkable -->
+      <img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/62653/261500/1608278987780_A7-1__53517.1687170836.jpg?c=2&imbypass=on" 
+        alt="picture from moonlight"
+        height="auto"
+        width="100%"
+        usemap="#map">
+  
+     <map name="map">
+        <area shape="rect" coords="0,0,125,150" href="https://youtu.be/5p8e2Zkb0FU" alt="youtube channel link"/>
+     </map>
+    
+    <!-- The <picture> HTML element contains zero or more
+    <source> elements and one <img> element to offer
+    alternative versions of an image for different
+    display/device scenarios.-->
+    <picture>
+    <source srcset="/.webp">
+    <source srcset="/.png">
+    <img src="/.jpg" alt='' />
+    </picture>
+
+    <!-- The <figure> HTML element represents self-contained content,potentially with an optional caption, which
+     is specified using the <figcaption> element. -->
+    <figure>
+    <img src="/thapa.png" alt="Figure image"/>
+    <figcaption>figure image caption Best HTML Course </figcaption>
+    </figure>
+
+    <ol type="" start="3" style="text-transform: capitalize; list-style:lower-roman;">
+        <li>first class</li>
+        <li>second class
+            <ul>
+                <li>row1</li>
+                <li>row2</li>
+            </ul>
+        </li>
+        <li>third class</li>
+    </ol>  
+
+    <!-- iframe also use for another website and google map location -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5ccq_nLHneE?si=P28dnWdn2fbv5Me1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+     <br>
+    <!-- The <video> HTML element embeds a media player which supports
+    video playback into the document. -->
+    <video controls autoplay loop muted poster="./images/html.png">
+    <source src="./video/thapatech.mp4" type="video/mp4" />
+    source src="./video/thapatech1.webm" type="video/webm" />
+    Your browser does not support the video element.
+    </video>
+
+    <form action="#" >
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="man">
+            <input type="radio" name="gender" value="woman">
+        </div>
+        <div>
+            <label for="country">Fav Country:</label>
+                <select name="country" id="country">
+                    <option value="USA">USA</option>
+                    <option value="CANADA">CANADA</option>
+                    <option value="UK">UK</option>
+                    <option value="AURTRALIA">AUSTRALIA</option>
+                </select>
+        </div>
+        <div>
+            <label for="country">Select a Country:</label>
+            <input type="text" id="country" name="country" list="countries">
+            <datalist id="countries">
+                <option value="USA"></option>
+                <option value="CANADA"></option>
+                <option value="UK"></option>
+                <option value="AUSTRALIA"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="email">Enter your email</label>
+            <input type="email"
+             name="email"
+             value=""
+             pattern="[]"
+             size="20"
+             placeholder="enter your email"
+             autocomplete="off"
+             required />
+             <input type="submit">
+        </div>
+        <div>
+            <label for="file">Select File</label>
+            <input type="file" name="file">
+        </div>
+    </form>
+
+        
+</body>
+</html>
